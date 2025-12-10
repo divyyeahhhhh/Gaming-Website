@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMEZONE SHOP - Products</title>
+    <link rel="stylesheet" href="product-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">GAMEZONE SHOP</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-grid">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="filter-container">
+                    <input type="text" id="search" placeholder="Search for products...">
+                    <select id="category-filter">
+                        <option value="all">All Categories</option>
+                        <option value="game">Games</option>
+                        <option value="keyboard">Keyboards</option>
+                        <option value="mouse">Mice</option>
+                        <option value="headset">Headsets</option>
+                    </select>
+                </div>
+                <div class="products">
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/watch?v=8X2kIfS6fb8" data-description="Cyberpunk 2077 is an action role-playing video game developed and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe.">
+                        <img src="assets/Cyberpun.jpg" alt="Product 1">
+                        <h3>Cyberpunk 2077</h3>
+                        <p class="price">$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/c0i88t0Kacs" data-description="The Witcher 3: Wild Hunt is an action role-playing game developed and published by CD Projekt. It is the sequel to the 22011 game The Witcher 2: Assassins of Kings.">
+                        <img src="assets/product2.jpg" alt="Product 2">
+                        <h3>The Witcher 3</h3>
+                        <p class="price">$39.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/eaW0tYpxLC0" data-description="Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and is a prequel to the 2010 game Red Dead Redemption.">
+                        <img src="assets/product3.jpg" alt="Product 3">
+                        <h3>Red Dead Redemption 2</h3>
+                        <p class="price">$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/E3Huy2cdih0" data-description="Elden Ring is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. The game was made in collaboration with fantasy novelist George R. R. Martin, who provided material for the game's setting.">
+                        <img src="assets/er.jpg" alt="Product 7">
+                        <h3>Elden Ring</h3>
+                        <p class="price">$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/rClXqZD2Xrs" data-description="God of War Ragnarök is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. It was released in November 2022 for the PlayStation 4 and PlayStation 5.">
+                        <img src="assets/gow.jpg" alt="Product 8">
+                        <h3>God of War Ragnarök</h3>
+                        <p class="price">$69.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/u4U32WN3LPs" data-description="The Legend of Zelda: Tears of the Kingdom is a 2023 action-adventure game developed and published by Nintendo for the Nintendo Switch. A sequel to The Legend of Zelda: Breath of the Wild (2017), Tears of the Kingdom retains the open-world gameplay.">
+                        <img src="assets/zel.jpg" alt="Product 9">
+                        <h3>Zelda: Tears of the Kingdom</h3>
+                        <p class="price">$69.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/BG-I_2t_g2M" data-description="Starfield is an action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. In the game, the player can join various factions and explore a galaxy with over 1,000 planets.">
+                        <img src="assets/starfield.jpg" alt="Product 10">
+                        <h3>Starfield</h3>
+                        <p class="price">$69.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/d54s_3D_d3Y" data-description="Hogwarts Legacy is a 2023 action role-playing game developed by Avalanche Software and published by Warner Bros. Games under its Portkey Games label. The game is set in the Wizarding World universe, based on the Harry Potter novels.">
+                        <img src="assets/hl.png" alt="Product 11">
+                        <h3>Hogwarts Legacy</h3>
+                        <p class="price">$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/1O6QstnBNpE" data-description="Baldur's Gate 3 is a role-playing video game developed and published by Larian Studios. The game is the third main installment in the Baldur's Gate series, itself based on the Dungeons & Dragons tabletop role-playing system.">
+                        <img src="assets/Baldurs-Gate-3-PS5-Wallpapers-01.jpg" alt="Product 12">
+                        <h3>Baldur's Gate 3</h3>
+                        <p class="price">$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/pM_5S55jUzk" data-description="Diablo IV is an action role-playing game developed and published by Blizzard Entertainment. It is the fourth main installment in the Diablo series.">
+                        <img src="assets/diablo.png" alt="Product 13">
+                        <h3>Diablo IV</h3>
+                        <p class="price">$69.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/6o-p-oQ6A-k" data-description="Final Fantasy XVI is an action role-playing game developed and published by Square Enix. It is the sixteenth main installment in the Final Fantasy series.">
+                        <img src="assets/Final_Fantasy_XVI_cover_art.png" alt="Product 14">
+                        <h3>Final Fantasy XVI</h3>
+                        <p class="price">$69.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="game" data-trailer="https://www.youtube.com/embed/v_c3iI_5L4Q" data-description="Resident Evil 4 is a 2023 survival horror game developed and published by Capcom. It is a remake of the 2005 game Resident Evil 4.">
+                        <img src="assets/re.jpg" alt="Product 15">
+                        <h3>Resident Evil 4 Remake</h3>
+                        <p class="price">$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="keyboard">
+                        <img src="assets/product4.png" alt="Product 4">
+                        <h3>Gaming Keyboard</h3>
+                        <p class="price">$129.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="mouse">
+                        <img src="assets/product5.png" alt="Product 5">
+                        <h3>Gaming Mouse</h3>
+                        <p class="price">$79.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card" data-category="headset">
+                        <img src="assets/product6.png" alt="Product 6">
+                        <h3>Gaming Headset</h3>
+                        <p class="price">$149.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <a id="modal-trailer-link" href="#" target="_blank" class="cta-button">Watch Trailer</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 GAMEZONE SHOP. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#">FB</a>
+                <a href="#">TW</a>
+                <a href="#">IG</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
